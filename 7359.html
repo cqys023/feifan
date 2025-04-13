@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>巨型水族馆/Megaquarium（更新v4.2.3）</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<div>
+<h2>关于这款游戏</h2>
+<p>Big Pharma开发商推出的全新模拟经营游戏。大水族馆沿用经典管理大亨游戏的模式，并加入了水下世界的多彩内容！</p>
+<h2>栩栩如生的模拟环境</h2>
+<p>从几个水族箱和最基本的鱼类开始，您将把这里发展成为有大批管理人员、游客络绎不绝的大型水族馆。水族馆的物种多样，每一种都需要独特的照料方法</p>
+<h2>设计场馆展示内容</h2>
+<p>水族馆提供近100种不同的海洋生物，包括观赏鱼、鲨鱼、甲壳动物、珊瑚、水母、其他无脊椎动物、甚至还有海龟！您在设计、装饰和布置水族箱时会发现：选择真的是太多了！</p>
+<h2>雇用合适的管理人员</h2>
+<p>不雇用合适的管理人员是发展不下去的。根据技能和未来的潜能来选择要雇用的员工。您能培养出一支多才多艺的管理员团队吗？或是培养出一批超级专才？您必须权衡每种策略的利弊，找出适合您水族馆运营方法。</p>
+<h2>研究新的动物和科技</h2>
+<p>当游客欣赏您的展出内容时，您就能获得点数，您需要用点数来解锁新的物种和设备。不断提升和扩张您的水族馆，一步一步做大做强，致力于展出水族馆行业内独一无二的物种。</p>
+<h2>管理财务</h2>
+<p>最新解锁的鱼类看起来很酷，但您是否考虑过它对水族馆财务状况的影响？引入新的物种可能需要新的管理员、昂贵的鱼食或补给才能维持运营。另外，最好的水族箱也是最贵的！作为馆长，您需要掌控吸引力和财务的平衡，才能取得成功。</p>
+<h2>接待游客！</h2>
+<p>为游客提供座位、食物、饮料和卫生间，让其感到满意。在游客参观完毕时，指引他们进入礼品店，以增加您的利润！</p>
+<h2>馆长学校</h2>
+<p>在剧情模式中开始您的职业生涯，您将从中学习到有关水族馆设计和管理的所有知识。10关中的每一关都会要求您根据独特的游戏条件和目标去建设水族馆，在建设的同时您将学会新的功能和概念。</p>
+<h2>沙盒磨合</h2>
+<p>在沙盒模式中，通过可自定义的设置和随机挑战生成器，您可以获得无限种可能的游戏体验！</p>
+<h2>易学难精</h2>
+<p>管理效率低下的水族馆并不难。但要面对终极挑战从而真正成功运营，您需要有非线性思维的能力和关注细节的习惯。您会根据食物种类、水质或其他因素将物种分组吗？您是否会使用泵将设备集中放在一个位置，还是将它们分散到不同区域中？您将如何优化馆內的布局，在便于游客观赏的同时，也方便管理人员的维护？</p>
+<p>您在大水族馆中所作出的每一个决定，都会产生影响。您选择的物种、过滤器、水族箱、管理员和场馆布置，都会造成微妙但深远的影响。尝试、调整、学习、改进，最重要的是，玩得开心！</p>
+<h2>功能特点</h2>
+<ul>
+<li>10关「剧情」模式</li>
+<li>提供完全自定义设置和随机挑战生成器的沙盒模式</li>
+<li>97种具有独特生存需求的生物</li>
+<li>超过100种的不同物件，包括过滤器、蛋白质分离器、硝酸盐反应器、冷却器、加热器、配食器、工具站、门、闸门、食品和饮料贩卖机、气球架、装饰品、涂料等等！</li>
+<li>决定管理员演说的主题、时间和频率，以进一步提高您的点数收入！</li>
+<li>礼品店和游客设施</li>
+<li>完整的主题和装饰系统</li>
+</ul>
+</div>
+<div>
+<div>
+<h2>系统需求</h2>
+<div>
+<div>Windows</div>
+<div>Mac OS X</div>
+<div>SteamOS + Linux</div>
+<div></div>
+</div>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 7 64 bit</li>
+<li>处理器: Intel Core i5-4690 or AMD Ryzen 7 2700U</li>
+<li>内存: 8 GB RAM</li>
+<li>显卡: GeForce GTX 560 or AMD Radeon HD 7770</li>
+<li>存储空间: 需要 1 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>推荐配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="7359"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/7359.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

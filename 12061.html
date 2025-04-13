@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>森久城物语（Build.9407430-1.0.94-巫女修复）</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<p>《森久城物语》是一款带有轻度Roguelike的卡组构筑策略游戏。你需要通过不断的战斗来优化自己的卡组，学习强大的天赋，借助日本战国时期各个武将的能力，来调查清楚森久城谋反的真相。</p>
+<p><img alt="" decoding="async" src="https://media.st.dl.pinyuncloud.com/steam/apps/1608040/header_schinese.jpg?t=1644480473"/></p>
+<p>名称: 森久城物语<br/>
+类型: 独立, 策略<br/>
+开发商: Smokingbear Studio<br/>
+发行商: Thermite Games<br/>
+系列: Thermite Games<br/>
+发行日期: 2022 年 2 月 10 日<br/>
+最低配置:<br/>
+需要 64 位处理器和操作系统<br/>
+操作系统: Windows 7+<br/>
+处理器: Anything from the last 5 years<br/>
+内存: 4 GB RAM<br/>
+显卡: 1GB Video Memory<br/>
+存储空间: 需要 4 GB 可用空间</p>
+<p>1.0.78版本更新公告<br/>
+1.修改天赋盘规则：游戏开始时天赋盘全部可见<br/>
+2.僧侣卡牌“佛光+”的生命值恢复数值从10点改为8点<br/>
+3.僧侣卡牌“阿修罗”获得的力量从1点改为2点；“阿修罗+”获得的力量从2点改为3点<br/>
+4.忍者卡牌“锦囊”从0费改为1费，可获得2张道具牌；<br/>
+5.忍者卡牌“飞虹”初始伤害修改为2点；“飞虹+”初始伤害修改为3点，去掉预谋属性<br/>
+6.忍者卡牌“伺机而动”去除其弃置效果<br/>
+7.英灵“服部半藏”改为“直接击杀生命值≤20点的所有敌人”<br/>
+8.通用天赋“强壮”最大生命值提升从10点改为15点<br/>
+9.邪教精锐的生命值由100点下降至80点；基础伤害由8点下降至6点<br/>
+10.取消邪教精锐的“庇佑”能力<br/>
+11.邪教徒的生命值由85点下降至60点；基础伤害由12点下降至8点<br/>
+12.邪恶祭祀的“邪咒”伤害由14点下降至8点<br/>
+13.肿胀蛆虫的生命值由142点下降至120点<br/>
+14.食腐鸦的生命值由32点下降至26点<br/>
+15.魔化力士的基础伤害由6点下降至4点<br/>
+16.黑色树妖的生命值由82点下降至72点；基础攻击力由10点下降至6点<br/>
+17.黑色树妖每次获得的先制层数由5层降低至3层；每回合获得5点护甲降低至每回合获得4点护甲<br/>
+18.食人恶犬的基础伤害由4点下降至3点<br/>
+19.腐烂恶犬的基础伤害由4点下降至3点<br/>
+20.减少怪物行为刷新等待时间<br/>
+21.替换僧侣卡牌“慈悲”的图片资源<br/>
+22.修改本地化错误<br/>
+23.替换英文字体<br/>
+24.修复若干程序崩溃</p>
+<p>1.0.77版本更新公告<br/>
+1.修复随机事件钱币机关在生命值足够的情况下无法点击问题<br/>
+2.修复阴阳师卡牌“占卜+”查看升级版界面错误问题<br/>
+3.补充怪物Tips<br/>
+现在【怪物意图】中若出现涉及到词条的描述时，会附加该词条的效果描述。<br/>
+4.调整本地化文本</p>
+<p>幕府将军德川家光向各藩颁布了《宽永令》后，遣往岩川家森久城的使者一去不返。谣传森久城领主岩川信久预谋造反，数日前已经拢城，通往森久城的路径均已无法通行。大目付柳生宗矩为了打探到真实的情报，需要一个密探前往森久城，将那里的情况一五一十的向幕府回报……<br/>
+<img alt="" decoding="async" src="https://media.st.dl.pinyuncloud.com/steam/apps/1608040/extras/%E5%9C%B0%E5%9B%BE-%E5%A4%A7.gif?t=1644480473"/><br/>
+各具特色的职业和卡组构筑<br/>
+四个完全不同的职业（僧侣、武士、阴阳师、忍者）各自拥有完全不同的牌库，共计300余张卡牌，每一张都有独特的能力，围绕职业特色构筑不同的战斗风格，去挑战千奇百怪的日本传说怪物。<br/>
+<img alt="" decoding="async" src="https://media.st.dl.pinyuncloud.com/steam/apps/1608040/extras/%E6%88%98%E6%96%97-%E5%A4%A7.gif?t=1644480473"/><br/>
+独特的战争迷雾机制<br/>
+做为密探的你，只身闯入森久城的管辖区。你需要做的是，在充满探索感和未知感的地图中，步步为营地考虑每一次抉择！<br/>
+<img alt="" decoding="async" src="https://media.st.dl.pinyuncloud.com/steam/apps/1608040/extras/%E5%A4%A9%E8%B5%8B-%E5%A4%A7.gif?t=1644480473"/><br/>
+每一局中生成的天赋盘，都是独一无二的<br/>
+其中的天赋均是从“职业天赋”和“通用天赋”中各自选取一半，随机组合后生成的独一无二的天赋盘。</p>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="12061"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/12061.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
