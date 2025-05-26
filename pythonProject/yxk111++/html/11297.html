@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>脑叶公司怪物管理模拟（v1.0.2.13c）</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<div>
+<div>
+<div>
+<h2>关于这款游戏</h2>
+<h2>管理五花八门的怪诞生物们，一切超乎您的想象！</h2>
+<p>脑叶公司”是一款管理怪物的Rogue-Lite模拟游戏。</p>
+<p>游戏的灵感来源于那些在小说，游戏和电影中登场的怪物们，例如《SCP基金会》，《林中小屋》，《第十三号仓库》等等。“如果这些怪物都是真实存在的，而你的工作就是管理它们，那会发生些什么呢？”带着这样的想法，我们制作了这款游戏。</p>
+<p>在游戏中，您将扮演一位怪物管理公司的主管，不断解锁新的部门，研发新的科技，并遇见形形色色的怪诞生物们。公司收容的怪物能够产出一种全新的能源，而您的职责就是在尽可能避免员工损失的前提下收集这些能源——这意味着您将在紧张与恐怖的气氛中进行游戏。</p>
+<p><img decoding="async" src="https://cdn.cloudflare.steamstatic.com/steam/apps/568220/extras/Steambanner_Management.png?t=1608796407"/></p>
+<h2>“我们的新科技将会给人类带来救赎。”</h2>
+<p>“脑叶公司是一家运用自主研发的科技将怪物从人类社会中隔离，并从它们身上获取无尽能量的新型能源公司。”——然而这只是社会大众对公司的印象，在您加入公司并任职主管后，您将会一步一步揭露这家公司光鲜外表下那不为人知的真相。</p>
+<p>脑叶公司也和其他公司一样，由许多不同的部门构成。随着能源收集总量的增加，您也会获得解锁更多部门的权限。解锁的部门越多，管理怪物们的效率就会越高。</p>
+<p>除此之外，人工智能“Angela”以及各个部门的“Sephirah”们也会陪伴在您的身边，辅佐您顺利完成自己的工作。</p>
+<p><img decoding="async" src="https://cdn.cloudflare.steamstatic.com/steam/apps/568220/extras/Steambanner_Observation.png?t=1608796407"/></p>
+<h2>它们，是需要您不断观察和研究的存在。</h2>
+<p>我们将公司收容的怪物们称为“异想体”。</p>
+<p>身为一名主管，您必须竭尽全力使员工们远离异想体带来的威胁，同时保证能源生产效率维持在最优水平。</p>
+<p>最一开始，您不会得到任何有关异想体的情报，能够指引您的唯有《主管手册》和自己的双眼。您需要在实践中推测出每一个异想体的工作偏好，在那之后，您只需派遣员工们对其进行最合适的工作，然后静待结果就好了。除此之外，在管理异想体的过程当中您还将获得能够解锁情报的“独立PE-BOX点数”，这些点数会帮助您更加清晰地了解各个异想体的背景故事以及应对方法。</p>
+<p>对不同的异想体进行不同的工作，您所能获得的能量是有极大差别的。</p>
+<p><img decoding="async" src="https://cdn.cloudflare.steamstatic.com/steam/apps/568220/extras/Steambanner_Escape.png?t=1608796407"/></p>
+<h2>脑叶公司并不是和谐欢乐的经营大亨类游戏。。</h2>
+<p>正如之前所说，在管理过程中，您需要时刻警惕这些被称为“异想体”的怪物。有些异想体并不喜欢被弱小的人类关押在收容单元中，它们会费尽心思突破收容，一有机会就尝试逃脱，并摧毁它们遇到的一切，无论是我们的员工，还是这个设施本身——最糟糕的情况是，它们会打开其他异想体的收容单元，将它们一并放出来。</p>
+<p>除此之外，某些异想体还具有对员工进行精神控制，使其腐化堕落并据为己用的能力，被控制的员工会盲目地袭击身边的同事，或是对其他员工造成不良的影响。部分恐怖的异想体还会提高员工的精神污染指数，最终导致员工们陷入恐慌，违抗您的命令。您当然可以“处理”掉这些员工，但请注意员工本身的“信息”和“存在”都会被一并“处理”掉。</p>
+<p><img decoding="async" src="https://cdn.cloudflare.steamstatic.com/steam/apps/568220/extras/Steambanner_Suppression.png?t=1608796407"/></p>
+<h2>一场灾难将导致另一场灾难，最终一切都会被引向混乱。</h2>
+<p>如果您不能及时镇压出逃的异想体，局势就会逐渐失控，进而使整个公司陷入混乱之中。每当有异想体突破收容的时候，您必须做出抉择——是召集您的员工去镇压危险的异想体？还是牺牲小部分的设施来确保大多数员工的安全？</p>
+<p><img decoding="async" src="https://cdn.cloudflare.steamstatic.com/steam/apps/568220/extras/Steambanner_Story1.png?t=1608796407"/></p>
+<h2>“主管，您有什么愿望吗？”</h2>
+<p>游戏分为“管理流程”及“故事情节”这两部分。</p>
+<p>在管理流程中，您将以一位主管的身份来管理公司收容的异想体并生产能源。每天的管理工作结束之后，您将进入游戏相关的故事情节。</p>
+<p>在故事情节中，您将与人工智能“Angela”以及各部门的“Sephirah”们进行简短的对话，他们也会出现在您之后的管理流程当中。通过完成他们提供的任务，您可以发现越来越多有关脑叶公司的秘密。有时，玩家也会置身于必须“回答”或是“提问”的情境之中。而在这个情境中，您将进一步挖掘那掩藏在层层阴霾下的真相。</p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<h2>系统需求</h2>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>操作系统: Windows 8.1 or later</li>
+<li>处理器: Intel(R) Core(TM) i5-3570</li>
+<li>内存: 8 GB RAM</li>
+<li>显卡: GeForce GTX 550 ti or Radeon hd 6570</li>
+<li>DirectX 版本: 9.0c</li>
+<li>存储空间: 需要 6 GB 可用空间</li>
+<li>声卡: DirectX 9.0c compatible</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="11297"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/11297.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

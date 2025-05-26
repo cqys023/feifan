@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>面包房模拟器/Bakery Simulator（整合Delivery）</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<figure class="wp-block-video"><div class="video-container"><video autoplay="" controls="" src="https://media.st.dl.eccdnx.com/steam/apps/256884022/movie480_vp9.webm?t=1651593416"></video></div></figure>
+<p>游戏名称：面包房模拟器<br/>英文名称：Bakery Simulator<br/>游戏类型：模拟经营SIM<br/>游戏制作：Live Motion Games<br/>游戏发行：Ultimate Games S.A.,Gaming Factory S.A.<br/>游戏平台：PC<br/>游戏语言：中文,英文,日文,其他<br/>发售日期：2022-05-04<br/>【游戏介绍】<br/>在《面包店模拟器》中，每个食谱的灵感都来自真实的食谱！<br/>查看食谱，使用原始食谱数据库，并学习烘烤几十种面包、馒头等。要准确无误–否则你的货物将无法正常出炉 。<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1031120/extras/Gif-1.gif?t=1656428849"/></p>
+<ul>
+<li>选择你的目标。</li>
+</ul>
+<p>商店需要不同种类的烘培产品。面包和馒头是远远不够的–有些人期待羊角面包、百吉饼或松饼。浏览每天的订单清单，选择它们并承诺定期交付。通过按时交货，提高你在商店的声誉和信任。<br/><img decoding="async" src="https://store.steampowered.com/app/1031120/_/%7BSTEAM_APP_IMAGE%7D/extras/Gif-2.gif"/>[/img)</p>
+<ul>
+<li>寻找最好的原料。</li>
+</ul>
+<p>管理和控制原料的储存空间。从仓库订购不同种类的面粉、酵母和添加剂。检查哪些原料缺失，或者哪些原料越来越少–否则，你可能会发现自己处于困境，无法从事订单工作<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1031120/extras/Gif-3.gif?t=1656428849"/></p>
+<ul>
+<li>赚钱和投资。</li>
+</ul>
+<p>将你辛苦赚来的现金投资于更新的设备，让你烤出更多的产品。买一辆更大的送货车辆或制作其他类型面包的机器。扩大你的面包店。<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1031120/extras/Gif-4.gif?t=1656428849"/></p>
+<ul>
+<li>面包店定制。</li>
+</ul>
+<p>从几十种可用的机器和设备的列表中选择你自己的面包店设备。密切关注手册……或者找到你自己的用途。根据你的喜好升级和定制你的工作空间。随着你在游戏中的进展，安装越来越多的面包店机器。购买台面、架子和工具。为烘焙创造完美的条件!<br/><img decoding="async" src="https://store.steampowered.com/app/1031120/_/%7BSTEAM_APP_IMAGE%7D/extras/Gif-5.gif"/>[/img)</p>
+<ul>
+<li>物流是关键。</li>
+</ul>
+<p>计划好你的路线，在卸货时尽可能地节省时间。在商店开业前，赶紧把热面包送到商店。请记住，延误将使你付出代价<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1031120/extras/ezgif.com-gif-maker__5_.gif?t=1656428849"/></p>
+<ul>
+<li>一个开放的世界，拥有不断变化的客户群。</li>
+</ul>
+<p>不时有新的面包店出现。应对市场的需求，投资新设备以避免破产。<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1031120/extras/Gif-7.gif?t=1656428849"/></p>
+<p>        天不亮就起身，体验一下面包师的生活。学习烘培数十种面包。使用真实的面包烘培机。将刚刚出炉的面包及时送至各个面包店。将辛苦工作赚到的钱用于投资，扩大生产。你可以使用游戏提供的食谱，也可以创造你自己的独特配方。</p><div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="9128"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/9128.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

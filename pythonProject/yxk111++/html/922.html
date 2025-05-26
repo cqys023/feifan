@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>观察者：系统重制版/Observer: System Redux</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<div>
+<h2>关于这款游戏</h2>
+<h3>欢迎来到未来世界</h3>
+<p>2084年的世界远比人们想象中黑暗。成千上万的人选择通过科技来增强大脑和体格。随后，一场被称为纳米侵噬（Nanophage）的数字瘟疫袭来，夺走了这些人的性命。<br/>
+之后爆发了战争，东西方世界都遭受了毁灭性打击。在这样的权力中空下，企业控制了世界，并建立了扭曲的帝国。<br/>
+你是企业进行压迫的工具，受到他人的畏惧和鄙视。你侵入犯罪嫌疑人心中最黑暗的角落，潜入他们的梦境，揭露他们的恐惧，并进行调查。<br/>
+你是一名观察者。</p>
+<h3>扮演一名神经网络侦探</h3>
+<p>你将扮演Daniel Lazarski，未来世界中的一名精英探员，其形象根据已故赛博朋克标志性人物Rutger Hauer刻画。作为一名观察者，你将潜入犯罪嫌疑人的内心以获取线索和证据。他们的所思所想和记忆都能用来助你破解案件。</p>
+<h3>吞噬梦境</h3>
+<p>通过名为梦境吞噬器的设备侵入频死之人和死者的大脑，重温他们临终前的最后时刻，揭示他们内心的恐惧和困扰。你必须在扭曲的神经迷宫中寻找线索，抓获神秘莫测的凶手。但你得小心，越是深入他人大脑，丧失自己理智的风险就越大。<br/>
+体验2084年的未来世界[/h2]进入被战争和赛博瘟疫摧残的世界，那里的人如蝼蚁命如草芥，希望如同奢侈品。大部分人愿意不惜一切代价，只为逃离残酷的现实。那里充斥着虚拟现实、蚀人心智的药物以及神经植入物。人们靠这些毒药进入极乐，被世界忘却。然而别忘了，不管你藏得多深，都无法逃脱观察者的法眼。</p>
+<h3>SYSTEM REDUX特性</h3>
+<p>该版本新增三个全新旁支案件，供老玩家逐一侦破，更深入地体验反乌托邦的游戏世界。新案件包括《错误信号（Errant Signal）》、《她的对称灵魂（Her Fearful Symmetry）》和《家族遗传（It Runs in the Family）》。新增案件增加了剧情深度，玩家能够在游戏中体验或将成为我们现实的未来，探索未来世界中引人深思的主题。<br/>
+此外，该版本拓展了游戏内容，包含了全新游戏机制和谜团，对隐身机制进行了重新设计，新增了更多神经网络审问，并根据Observer社区的宝贵意见进行了游戏体验的改进。</p>
+<p>新玩家有机会体验通过次世代最新技术构建的扣人心弦的赛博朋克故事。游戏配置了全新动画、模型和效果，并搭载4K分辨率、升级纹理、光线追踪和高动态范围成像（HDR）等技术，全新体验等你来探索。</p>
+</div>
+<div>
+<div>
+<h2>系统需求</h2>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 7/10 – 64 bitowy</li>
+<li>处理器: Intel Core i5-3470 / AMD Ryzen 3 1200</li>
+<li>内存: 8 GB RAM</li>
+<li>显卡: @1280×720: GeForce GTX 1050 3 GB / Radeon RX 560 4 GB</li>
+<li>DirectX 版本: 11</li>
+<li>存储空间: 需要 16 GB 可用空间</li>
+<li>声卡: DirectX® 11.0 compatible</li>
+<li>附注事项: Storage: HDD; Ray Tracing requires RTX cards</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li style="list-style-type: none">
+<ul>推荐配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 10 – 64 bitowy</li>
+<li>处理器: Intel Core i7-3770 / AMD Ryzen 5 1600</li>
+<li>内存: 16 GB RAM</li>
+<li>显卡: @60 FPS (1920×1080): GeForce GTX 1060 6 GB/ Radeon RX 590</li>
+<li>DirectX 版本: 12</li>
+<li>存储空间: 需要 16 GB 可用空间</li>
+<li>声卡: DirectX® 12.0 compatible</li>
+<li>附注事项: Storage: SSD / M.2; Ray Tracing requires RTX cards</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="922"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/922.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
