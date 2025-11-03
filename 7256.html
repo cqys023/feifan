@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>异教徒模拟器/Cultist Simulator（更新v2023.10.10）</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<div>
+<h2>关于这款游戏</h2>
+<h2>逐忌宝，唤异神，创密教。</h2>
+<p>《密教模拟器 (Cultist Simulator)》是一款有关天启与渴慕的游戏，来自《堕落伦敦 (Fallen London)》与《无光之海 (Sunless Sea)》的制作人 Alexis Kennedy。玩家将扮演一名探索邪恶奥秘之人，而背景则设立在一个拥有隐世诸神与多重秘史的世界的1920年代。或许，你是想追求知识、力量、美貌或者复仇，又或许，你不过是想了解隐藏在世界表皮之下的色彩。</p>
+<p>在这部 roguelike 式的叙事卡牌游戏中，你所找到的事物将会永久地改变你。你每时每刻所做的选择，不仅仅只是在推动剧情发展，而是在塑造剧情本身。</p>
+<p>成为一名无形之术的学者。搜寻梦境，找到那些会扭曲心智的仪式。合成物品，召唤灵体。向无辜者灌注你的思想。作为新时代的先驱者来攫夺属于你的一席之地。</p>
+<h2>主要内容</h2>
+<p>在约莫20-40个小时的游戏时长中，你可以:</p>
+<ul>
+<li>在这个充满野心，食欲与厌恶的洛夫克拉夫特式的复杂世界之中，通过组合卡牌来讲述属于你的故事。腐蚀你的朋友。进食你的敌人。历史并非只有一重。</li>
+<li>成立密教，追奉赤杯、双生巫女，或者白日铸炉。招募信徒，然后将他们提升为门徒，令其成为你麾下的窃贼，研究者与爪牙。利用你的门徒，靠他们供养自己——或者沦为他们的给养。</li>
+<li>揭晓奥秘，解开那些不为人知的秘密。翻译魔法书，收集其中的秘密传承。寻找并劫掠被星辰击碎的神殿。刺探司辰的领域，在祂们麾下赢得一席之地。或许，如果你足够狡黠，甚至能够一瞥漫宿的真容。</li>
+<li>用智力战胜敌手，调查人员以及越来越起疑的当局。你自己被改变的胃口很可能会迫使你做出令人憎恶的行为，但你的大业绝对不能停下。</li>
+<li>剧情驱动的继承系统能使你超越死亡。或许，你的后继者能够完成魂之埚仪式。或许，他们会在愉快的日常工作中获得安宁。又或许，他们能够带来拂晓。</li>
+</ul>
+</div>
+<div>
+<div>
+<h2>系统需求</h2>
+<div>
+<div>Windows</div>
+<div>Mac OS X</div>
+<div>SteamOS + Linux</div>
+<div></div>
+</div>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>操作系统: Windows 7 or later</li>
+<li>处理器: 2GHz or better</li>
+<li>内存: 1 GB RAM</li>
+<li>显卡: 1280×768 minimum resolution, post-2012 integrated graphics</li>
+<li>DirectX 版本: 9.0c</li>
+<li>存储空间: 需要 500 MB 可用空间</li>
+<li>声卡: DirectX 9.0c compatible</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="7256"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/7256.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

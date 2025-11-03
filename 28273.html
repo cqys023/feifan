@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>救护车生活：救护员模拟器/Ambulance Life: A Paramedic Simulator</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<p>关于这款游戏<br/>
+由开创性标杆游戏《Police Simulator: Patrol Officers》的创作者开发，《Ambulance Life: A Paramedic Simulator》是首款让你体验急救人员生活方方面面的模拟游戏。你的目标？驾驶救护车迅速抵达事故现场。你的任务？照顾伤者，实施急救。每场事故都不一样。你必须在保持快速高效的同时，根据情况随机应变并做出正确选择。你在美国西海岸工作。各式各样的环境等你前来：历史街区、商业区以及工业区。每片社区都不尽相同，可能发生事故或重大事故。居民们有各自独特的生活方式和活动方式，可能会导致新型事故。一旦警报响起，你必须立即赶往救护车，拉响警笛并在第一时间到达事故现场。你需要展现极限驾驶技巧，在拥挤的街道上穿梭，找到最佳路线。抵达事故现场后，你要分析当前情况，做出准确判定，对每位受害者使用正确的治疗措施。与受害者交谈，了解事故具体情况，安抚他们的情绪，利用全部现有设备进行必要的各项检查，并做出初步诊断。随后你便可以实施急救，如果受害者伤势过于严重，你还可以使用担架，尽快将其送往医院。急救干预累积到一定次数后，你会被分配到情况不同的新片区，你的救护车也会配备新仪器。灾难性事件可能会在你值班期间突然发生，你必须迎难而上。这种异常严重的紧急情况会伴随大量伤者，你必须在保持冷静的同时迅速对他们进行检查。你必须根据伤势严重程度对伤者分类，并最大限度救治他们。你将面临道德难题的考验，这些难题会直接影响病人的存活几率。你必须做出正确的决定，因为有时你显然无法拯救所有人。你能保持冷静吗？<br/>
+探索 3 个独特地区，在发生事故（有时是重大灾难）的现场进行急救干预<br/>
+以特定的驾驶风格驾驶救护车<br/>
+调整驾驶方式，适应繁忙真实的道路交通<br/>
+应对多种情况，小到简单的日常割伤，大到加油站爆炸造成的三度烧伤<br/>
+任意使用十种医疗器械，包括听诊器和氧气面罩<br/>
+真实且记录在册的手术操作<br/>
+2 种游戏模式：为资深急救人员打造的沉浸模式，或指导你完成首轮值班的传统模式<br/>
+<img alt="" class="alignnone size-full wp-image-28274" decoding="async" fetchpriority="high" height="215" src="https://www.yxk111.com/wp-content/uploads/2025/02/1739464262-32a9c14aa522df7.jpg" width="460"/></p>
+<p><img alt="" class="alignnone size-full wp-image-28275" decoding="async" height="506" src="https://www.yxk111.com/wp-content/uploads/2025/02/1739464366-15f613a1913f87f.png" width="1004"/></p>
+<p><img alt="" class="alignnone size-full wp-image-28276" decoding="async" height="507" src="https://www.yxk111.com/wp-content/uploads/2025/02/1739464367-2d646be869719d7.png" width="1006"/><br/>
+成人内容描述<br/>
+开发者对内容描述如下： This game depicts blood, gore and graphic injuries. In some cases, breasts can be seen.<br/>
+系统需求<br/>
+最低配置:<br/>
+需要 64 位处理器和操作系统<br/>
+操作系统: Windows 10<br/>
+处理器: Intel Core i7-8700K or AMD Ryzen 7 1800X<br/>
+内存: 16 GB RAM<br/>
+显卡: NVIDIA GeForce GTX 980, 4 GB or AMD Radeon RX 590, 8 GB or Intel Arc A380, 6 GB<br/>
+DirectX 版本: 12<br/>
+存储空间: 需要 60 GB 可用空间<br/>
+附注事项: SSD Required. 1080p Low @ 30 FPS w/ TSR @ 66% Resolution Scaling<br/>
+推荐配置:<br/>
+需要 64 位处理器和操作系统<br/>
+操作系统: Windows 10<br/>
+处理器: Intel Core i7-12700K or AMD Ryzen 7 5800X<br/>
+内存: 16 GB RAM<br/>
+显卡: NVIDIA GeForce RTX 2070 Ti SUPER, 8 GB or AMD Radeon RX 5700 XT, 8 GB or Intel Arc A770, 16 GB<br/>
+DirectX 版本: 12<br/>
+存储空间: 需要 60 GB 可用空间<br/>
+附注事项: SSD Required. 1080p High @ 30 FPS w/ TSR @ 71% Resolution Scaling<br/>
+声明：1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</p>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="28273"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/28273.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

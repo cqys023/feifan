@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>汽车修理工模拟2018/Car Mechanic Simulator 2018</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<p>世界上最畅销的汽修模拟游戏已进入全新的高度！</p>
+<p>在Car Mechanic Simulator 2018中玩家可以修理并喷涂汽车、轮毂、驾驶汽车。<br/>
+游戏囊括了大量车型，无论是经典之作，还是独特的车款。你甚至可以在车辆编辑器中自己制作车辆模组。<br/>
+在此款制作精良细节到位的模拟游戏中，你要做的就是扩大汽车修理业务的规模。游戏中车辆细节的制作令人叹为观止。<br/>
+游戏采用了最新的图像显示技术。游戏中包含有更多车辆(40+), 更多工具(10+), 更多选项 和 更多部件(1000+) ，这些都是前所未有的。是时候卷起袖子干活了！</p>
+<p>在Car Mechanic Simulator 2018中，玩家亦可以参与汽车拍卖，从而出售旧款车或者购入收藏车辆。在照相模式中，你可以拍摄汽车照片。同时游戏的随机算法会让任务更加丰富(也会让你变得脏兮兮的)</p>
+<p>游戏中项任务都有其独特的难度设定和时间限制。当完成任务额外的部件或工具时，你可以购买它们。你也可以逐步升级你的车库，比如购买油漆喷雾机或者部件仓库。</p>
+<p>Car Mechanic Simulator 2018游戏亮点:</p>
+<ul>
+<li>高清真实图像</li>
+<li>40+种可供修理的车型</li>
+<li>10+种用于检修的专业工具</li>
+<li>1000+种可用玩家使用的部件</li>
+<li>从小修理工起家，通过工作你甚至能够买具有三架升降机的大车库</li>
+<li>通过算法可生成的任务</li>
+<li>无尽游戏模式</li>
+<li>多等级停车位</li>
+<li>高级升级系统(通过游戏内点数升级)</li>
+<li>可进行悬挂系统试驾</li>
+<li>可进行车况试驾 (或者就是开车兜风)</li>
+<li>通过竞速以测试车况</li>
+<li>参加车辆拍卖会与其他拍卖者竞拍车辆</li>
+<li>车辆涂装商店喷漆商店 (你可以只喷涂一块来省钱)</li>
+<li>旧车坟场，你可以在此寻找废弃车辆 – 以此获得部件</li>
+<li>为模组制作者特别呈现的车辆编辑器 (向游戏中添加你自己的车!)</li>
+</ul>
+<p>相对于CMS 2015版本的亮点:</p>
+<ul>
+<li>座位，方向盘可更换</li>
+<li>车窗在此版本中也将作为部件，供玩家安装拆卸</li>
+<li>新维修系统(帮助玩家更好地修车)</li>
+<li>部件仓库(可将零件储存于此)</li>
+<li>车库</li>
+<li>轮胎和轮毂将各自独立(你可以将任意轮胎和轮毂搭配)</li>
+<li>新型减震器</li>
+<li>新型蓄电池充电器</li>
+<li>新型轮胎配平器</li>
+<li>竞速赛道 (位于测试赛道旁边, 计时器)</li>
+<li>全新物理系统(更加复杂真实)</li>
+<li>车辆涂装 (你可以为你的车加上涂装了)</li>
+<li>喷涂系统你可以为你的不同部件喷上不同的颜料, 并选择喷涂类型)</li>
+<li>模组可用 (在游戏中添加你自己的车)</li>
+<li>可自定义车牌架 (支持模组)</li>
+<li>可更换的游戏音乐 (支持玩家自己的音乐)</li>
+<li>引擎吊车 (方便拆装引擎)</li>
+<li>在吊车上使用新引擎 (通过鼠标操作)</li>
+<li>升级系统 (收集可用于升级经验值)</li>
+<li>车辆沙龙 (你可以购买品牌车)</li>
+<li>车辆内液体</li>
+<li>故事模式 (并非提前加入的固定剧情 CMS 2014) ，订单由算法产生(类似于 CMS 2015)</li>
+<li>全新UI界面和操作控制 (重新整合)</li>
+<li>平板支持</li>
+<li>… 还有更多等你来探索</li>
+</ul>
+<p>即将出现在DLC中的官方授权内容:</p>
+<ul>
+<li>梅塞德斯奔驰</li>
+<li>玛莎拉蒂</li>
+<li>德洛雷安</li>
+<li>帕加尼</li>
+<li>本特利</li>
+<li>道奇</li>
+<li>普利茅斯</li>
+<li>克莱斯勒</li>
+<li>吉普</li>
+<li>拉姆</li>
+<li>莲花</li>
+<li>马自达</li>
+<li>… 还有更多</li>
+</ul>
+<h2>系统需求</h2>
+<div>
+<div>Windows</div>
+<div></div>
+</div>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows(64-bit) 7 or Newer</li>
+<li>处理器: Intel Core i3 3.0 GHz</li>
+<li>内存: 4 GB RAM</li>
+<li>显卡: NVidia GeForce GTX 660 2GB</li>
+<li>DirectX 版本: 11</li>
+<li>存储空间: 需要 20 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>推荐配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows(64-bit) 7 or Newer</li>
+<li>处理器: Intel Core i5 3.4 GHz</li>
+<li>内存: 8 GB RAM</li>
+<li>显卡: NVidia GeForce GTX 970 4GB</li>
+<li>DirectX 版本: 11</li>
+<li>存储空间: 需要 20 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="7569"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/7569.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>强袭人形：原体/Strike Buster Prototype</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<div>
+<h2>关于这款游戏</h2>
+<p>《强袭人形：原体》是一款拥有独特玩法和大量现代化元素的复古风街机射击游戏。</p>
+<h2>-积累连击，横扫千军-</h2>
+<p>聚焦于连击积累的战斗系统。积累连击值会让武器威力升级，消耗连击值能使用强大的道具，被敌人击中后也先扣除连击值积累而不会立刻死亡，所以，连击是经验，也是能量，更是生命。</p>
+<h2>-切换武器，克敌制胜-</h2>
+<p>独特的武器克制系统，使用克制武器可以事半功倍的消灭敌人，您必须时刻决策使用哪种武器优先消灭哪种怪物。</p>
+<h2>-搜刮遗物，愈战愈强-</h2>
+<p>包含大量Rougelite元素，解锁并收集大量遗物道具，各个遗物会组合产生不同效应。您可以自由搭配各类遗物道具进入游戏，从而使您拥有更强的作战能力和更多的作战策略和战斗风格。</p>
+<h2>其他特色：</h2>
+<ul>
+<li>动态难度：导演系统加持的动态难度，会随时根据玩家体验自动生成敌人，以便达到每次进游戏都有完全不同的体验。</li>
+</ul>
+<ul>
+<li>怪物词缀：随机组合的精英怪词缀系统，使得敌人种类更丰富，更加狡猾难缠。</li>
+</ul>
+<ul>
+<li>武器收集：武器库除了基础武器，更有大量自带遗物的特殊武器供您尝试。</li>
+</ul>
+<ul>
+<li>抽奖系统：每次战斗都会获取硬币抽奖，试试您的运气吧！</li>
+</ul>
+<h2>后续计划：</h2>
+<p>游戏将在发售后持续更新内容，其中包括：<br/>
+更多boss：战斗风格不同，类型不同的boss战斗。<br/>
+更多遗物：稀奇古怪花样百出的遗物搭配。<br/>
+更多武器：更多基础武器和遗物武器的组合。<br/>
+更多可选人物：属性不同战斗风格不同的其他人物。<br/>
+更多场景变化：新的场景和场景带有的独特战场环境。</p>
+</div>
+<div>
+<div>
+<div>
+<h2>成人内容描述</h2>
+<p>开发者对内容描述如下：</p>
+<p>游戏包含部分擦边球成分（人物爆衣效果），所有角色均18岁以上（其实是人造人），但是实际上是款硬核stg！</p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<h2>系统需求</h2>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 7 or newer</li>
+<li>处理器: Intel Core 2 Duo E6320 (2*1866)</li>
+<li>内存: 2 GB RAM</li>
+<li>显卡: GeForce 7600 GS (512 MB)</li>
+<li>DirectX 版本: 10</li>
+<li>存储空间: 需要 1 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li style="list-style-type: none">
+<ul>推荐配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 10 64-bit</li>
+<li>处理器: Intel i5 9400</li>
+<li>内存: 4 GB RAM</li>
+<li>显卡: GeForce GTX 970</li>
+<li>DirectX 版本: 11</li>
+<li>存储空间: 需要 1 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="2433"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/2433.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

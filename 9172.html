@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>厨师生活餐厅模拟器/Chef Life A Restaurant Simulator</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<figure class="wp-block-video"><div class="video-container"><video autoplay="" controls="" src="https://media.st.dl.eccdnx.com/steam/apps/256924881/movie480_vp9.webm?t=1673519979"></video></div></figure>
+<div>
+<p>关于这款游戏</p>
+<p><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1122340/extras/Chef_Life_BaseGame_Steam_Gif01.gif?t=1677163134"/>梦幻餐厅，尽在掌控<br/>选择并定制数十个厨房组件（烹饪桌台、食品处理器、烤箱等物品），打造梦幻厨房！在点燃火炉之前，先组织好团队，管理各家供应商，以便获得令最挑剔的美食家也能印象深刻的优质食材。<br/>跟踪财务状况，预测忙碌程度，这样你就不会被晚餐高峰压垮了！<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1122340/extras/Chef_Life_BaseGame_Steam_Gif02.gif?t=1677163134"/><br/>根据自我口味制作菜单<br/>你是一位更喜欢勃艮第牛肉还是黑胡椒奶酪意面的厨师呢？围绕法国、意大利及国际美食的经典菜肴来定制菜单吧！你想在基础菜谱上更进一步吗？改良菜谱，迈入全新美食天地！根据季节和顾客的期望调整菜单，以此扬名立万。<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1122340/extras/Chef_Life_BaseGame_Steam_Gif03.gif?t=1677163134"/><br/>剁剁烤烤，烘焙混合，以及更多！<br/>你的烹饪和管理技能将在每次服务期间接受考验。你的团队将为满足那些最挑剔的客户伸出宝贵援手。管理切割、烹饪及所有准备工作，直到菜品装盘——在此时发挥创意。<br/><img decoding="async" src="https://media.st.dl.eccdnx.com/steam/apps/1122340/extras/Chef_Life_BaseGame_Steam_Gif04.gif?t=1677163134"/><br/>从本地咖啡馆成长成为米其林星级餐厅<br/>学习如何维系顾客忠诚度，发展壮大自己的餐馆。学习新的菜谱，提高烹饪技巧。你是想成为周边地区最受欢迎的热门菜馆，还是希望追求精致餐饮，最终获得入选《米其林指南》餐厅的殊荣呢？<br/>系统需求</p>
+</div>
+<div>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>最低配置:</ul>
+</li>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 10</li>
+<li>处理器: Intel Core i3-2100 or AMD FX-4100</li>
+<li>内存: 6 GB RAM</li>
+<li>显卡: NVIDIA GeForce GTS 450, 1 GB or AMD Radeon HD 5750, 1 GB or Intel HD Graphics 630</li>
+<li>DirectX 版本: 11</li>
+<li>存储空间: 需要 7 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>推荐配置:</ul>
+</li>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 10</li>
+<li>处理器: Intel Core i5-2400 or AMD FX-8350</li>
+<li>内存: 6 GB RAM</li>
+<li>显卡: NVIDIA GeForce GTX 760, 2 GB or AMD Radeon HD 7870, 2 GB</li>
+<li>DirectX 版本: 11</li>
+<li>存储空间: 需要 7 GB 可用空间</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="9172"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/9172.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>宇宙模拟器/Space Engine</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<div>
+<h2>关于这款游戏</h2>
+<p>SpaceEngine是一个1:1比例的科学宇宙模拟器，拥有数十亿个星系，星云，星团，恒星和行星等等，以真实世界的规模展示。在太阳系中探索地球和我们的邻近世界，在数十亿光年远的恒星系统轨道上观察黑洞，或者无缝地访问任何天体。<img decoding="async" src="https://media.st.dl.pinyuncloud.com/steam/apps/314650/extras/saturn.gif?t=1592220668"/></p>
+<p>时间和空间的探索之旅，以百万倍的光速在群星之间航行，加速观看上千个天体轨道运动。你在旅程中遇到的每个行星都有详细的程序3D地形。你在太空中看到的一切，恒星和星系，行星和卫星，小行星和彗星，黑洞和中子星，星团和星云，只需按一下按钮就可以探索。</p>
+<p>具有牛顿物理学和飞行辅助自动驾驶仪功能的航天器（处于早期开发阶段，但完全可用）可以让你在飞行模拟器模式下飞行到宇宙中的任何地方。SpaceEngine对于mods和addons的创建者非常友好，可以创建自己的行星，恒星系统，甚至星系，导入自己的航天器模型，创建自定义GUI皮肤等等，所有这些都可以与其他人轻松共享。<br/>
+使用SpaceEngine，可能性是无限的。</p>
+<p>SpaceEngine天文馆功能:</p>
+<ul>
+<li>天文学<br/>
+所有类型的天体都有：星系，星云，恒星和星团，行星和卫星，彗星和小行星。使用已知的真实天体目录：星系（NGC/IC），恒星(HIPPARCOS)，星团，星云和行星（太阳系和已知的太阳系外行星）。目前没有探测到的空间区域使用过程技术生成：星系，恒星，星团，星云和行星系统等等。</li>
+<li>控制<br/>
+你可以自由地在宇宙中移动，在任何天体和任何距离之间，从地面到轨道，到星际和星系际空间之间无缝地旅行。<br/>
+空间移动就像“点击进入”一样简单，以及使用WASD键或游戏手柄进行游戏式自由飞行。<br/>
+此外，还可以进行时间旅行：你可以加速，减速或反转时间流动，然后跳转到指定日期，详细的交互教程会教你如何控制。</li>
+<li>图像<br/>
+拥有星际尘埃的星系和星云的体积3D模型，以及行星和恒星上的3D地形景观。对于许多太阳系天体，使用来自太空探测器探测到的真实数据，可以使用巨大的高分辨率纹理包制作的免费DLC。对于未映射的和过程行星，使用计算机的GPU过程生成地形景观。其他功能包括真实的大气散射，日食阴影，极光动画和彗尾，黑洞和中子星附近的物理光线扭曲，以及吸积盘和喷射流（相对论性喷流）动画。</li>
+<li>物理学<br/>
+过程天体（行星，恒星，星系，星团，星云等等）及其物理属性（质量，半径，温度，大气参数等等）的真实和基于物理的生成。准确计算并显示多星系统中行星，卫星和恒星的轨道运动。真实的航天器设计概念和物理学：轨道运动，大气飞行模型和阿库别瑞引擎物理学。</li>
+<li>虚拟现实<br/>
+SpaceEngine支持HTC Vive, Valve Index，Oculus Rift（通过本机库）和Windows混合现实（通过Steam VR）。支持VR控制器的部分功能：你可以选择一个控制器的对象并使用另一个控制器移动。请注意，VR支持仍在进行中，新用户在尝试使用VR之前应熟悉SpaceEngine程序。</li>
+<li>声音<br/>
+许多作者制作的原创背景音乐曲目，有上下播放功能，行星环境和太空船的音效正在开发中。</li>
+<li>工具<br/>
+内置教程将帮助你如何使用天文馆，按名称搜索天体，搜索最近的星系。使用可扩展的宇宙地图和行星系统图表浏览宇宙，<br/>
+支持保存，导出和导入位置可以在用户之间轻松共享。SpaceEngine会自动记录你最近访问过的天体，使用内置的“Wiki”<br/>
+信息系统了解有关你找到的天体的信息，对许多已知天体的描述。显示天体的轨道，标签和标记，星座和其他信息工具。</li>
+<li>多语言支持<br/>
+目前，SpaceEngine支持英语，中文，德语，俄语，意大利语，法语，芬兰语，波兰语，西班牙语，荷兰语，捷克语，瑞典语，日语等等语言。<br/>
+许多新的本地化正在开发中，只有100％完成的本地化才会显示在Steam商店页面上。</li>
+<li>修改<br/>
+SpaceEngine支持创建和导入用户addons：深空对象，行星，恒星和太空船的目录，模型和纹理。真实和虚构设计的航天器3D模型，通常由社区导入和共享，无论是在Steam还是在SpaceEngine官方论坛上。[/list]</li>
+</ul>
+</div>
+<div>
+<div>
+<h2>系统需求</h2>
+<div>
+<div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>最低配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 7</li>
+<li>处理器: Intel Pentium G3240, AMD FX-4100</li>
+<li>内存: 4 GB RAM</li>
+<li>显卡: GeForce GTX 950, Radeon HD 8760</li>
+<li>存储空间: 需要 4 GB 可用空间</li>
+<li>附注事项: 附注事项:VRAM（视频内存）对于SpaceEngine非常重要，2GB显存足以在较低的设置下轻松运行程序。</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li style="list-style-type: none;">
+<ul>推荐配置:</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>需要 64 位处理器和操作系统</li>
+<li>操作系统: Windows 10</li>
+<li>处理器: Intel Core i5-4430, AMD FX-8350</li>
+<li>内存: 8 GB RAM</li>
+<li>显卡: GeForce GTX 970, Radeon R9 290</li>
+<li>存储空间: 需要 50 GB 可用空间</li>
+<li>附注事项: 附注事项:VRAM（视频内存）对于SpaceEngine非常重要 , 在启用所有功能且设置良好的情况下运行程序需要4GB显存。</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="7822"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/7822.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

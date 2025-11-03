@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>汽车帝国（Build.7622959-新增4S店-修复进度条卡死）</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+  html {
+    background-color: #f0f0f0; /* 设置 html 元素的背景色为淡灰色 */
+  }
+
+  body {
+    font-family: sans-serif; /* 设置默认字体 */
+    line-height: 1.6; /* 设置行高 */
+    border: 1px solid #ccc; /* 添加 1px 灰色边框 */
+    padding: 20px; /* 添加内边距，让内容不紧贴边框 */
+    background-color: white; /* 设置 body 元素的背景色为白色，覆盖 html 的背景色 */
+    margin: 20px auto; /* 居中 body 元素，并设置外边距 */
+    max-width: 800px; /* 设置 body 元素的最大宽度 */
+  }
+
+  p {
+    margin-bottom: 15px; /* 设置段落底部间距 */
+  }
+
+  img {
+    display: block; /* 使图片独占一行 */
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 上下边距10px，左右居中 */
+  }
+
+  .post-note {
+    background-color: #f8d7da; /* 淡红色背景 */
+    border: 1px solid #f5c6cb; /* 红色边框 */
+    color: #721c24; /* 深红色文字 */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .entry-share {
+    margin-top: 20px;
+  }
+
+  small {
+    font-size: 0.8em; /* 设置small标签字体大小 */
+  }
+
+  strong {
+    font-weight: bold; /* 设置strong标签字体加粗 */
+  }
+
+  /* 覆盖 Bootstrap container 的最大宽度 */
+  .container {
+    max-width: 800px; /* 或者你觉得合适的宽度 */
+  }
+
+  /* 视频样式 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px; /* 与下方段落保持间距 */
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+<div class="pt-0 d-none d-block d-xl-none d-lg-none"><aside class="widget-area" id="header-widget-shop-down"><p></p></aside></div>
+<div class="entry-wrapper">
+<div class="entry-content u-text-format u-clearfix">
+<p>还记得那些让你怦然心动的汽车吗？现在你终于有机会亲自造出来了……进入《汽车帝国》的世界，获得风投，建立公司，出任CEO，造出极品神车，横扫全球市场！这里需要英雄，这个人会是你吗？</p>
+<p><img alt="" decoding="async" src="https://media.st.dl.pinyuncloud.com/steam/apps/1607310/header.jpg?t=1628843331"/></p>
+<p>名称: 汽车帝国<br/>
+类型: 独立, 模拟, 策略, 抢先体验<br/>
+开发商: Shanghai huan zhen Info Tech Ltd<br/>
+发行商: Shanghai huan zhen Info Tech Ltd<br/>
+发行日期: 2021年8月13日<br/>
+抢先体验发行日期: 2021年8月13日<br/>
+最低配置:<br/>
+需要 64 位处理器和操作系统<br/>
+操作系统: Windows 7（64）,Windows 8（64）,Windows 10（64）<br/>
+处理器: 2 GHz Dual Core<br/>
+内存: 2048 MB RAM<br/>
+显卡: Hardware Accelerated Graphics with dedicated memory<br/>
+存储空间: 需要 2000 MB 可用空间<br/>
+声卡: 兼容DirectX声卡</p>
+<p>一、游戏简介<br/>
+《汽车帝国》是一款以造车为题材的高自由度模拟经营游戏。在这里你将扮演一名初创汽车公司的CEO，通过不断努力将自己的公司做大做强，并和各大知名车争夺全球市场。造车是本作的核心玩法，你既可以造汽油车，也可以造纯电动、混动、甚至氢能源汽车，游戏内置了超过150种不同的车辆蓝图，曾经那些让你怦然心动的汽车，今天你终于有机会亲自造出来了！另外本作的科技树也非常丰富，你可以研发各种发动机、三电系统甚至无人驾驶技术，科技的领先将会帮助你击败强劲的对手。最后，本作引入了工厂生产模块，你即将亲身体会到工厂的巨额开支所带了的心理压力，也将体会到产能爬坡所带来的的巨大成就感！<br/>
+二、玩法介绍<br/>
+1、汽车研发<br/>
+你可以研发轿车、SUV甚至跑车，动力方面也可以选择汽油、混动、纯电、氢能源，设定好自己价位和卖点，选择要搭载的前沿科技，然后开始研发吧！为每个项目安排最合适的人员，调节个项目的精力和成本投入，完成设计通过质检，你的第一辆汽车就研发完成了！<br/>
+2、汽车发布<br/>
+在汽车研发完成后就可以召开属于你的新车发布会了！你需要在发布会召开前先做一些准备工作，比如调整新车售价，选择营销策略，邀请明星等，在这些工作完成后你的新车就可以在发布会上闪亮登场了！发布会召开时你还可以看到网友和媒体的弹幕，从这些弹幕你将可以大概看出新车的受欢迎程度。<br/>
+3、汽车生产<br/>
+发布会开完后就要开始尽快量产了！你在初期的资金会比较紧缺，自己建厂有些不现实，所以可以进行外包生产，但是外包生产需要每辆车都支付一定的代工费。在新车完成交付后，你就可以很快看到新车的全球销量排名了，如果初期销量不佳也千万不要气馁。<br/>
+4、科技升级<br/>
+每研发一辆汽车你都将获得一定的科技点数，你可以用这些积累的科技点数来提升自己的各项科技水平。比如研发更优秀的设计图、更强力的发动机、更厉害的新能源技术、更智能的无人驾驶系统等等，你的科技水平越高，在研发汽车时可以选择的余地就越大，造出极品神车的几率也会更高。<br/>
+5、团队管理<br/>
+在汽车研发过程中会触发一个“连连看”的小游戏，如果连接成功的话会随机给某些员工增加干劲，当员工的干劲充满后，可以在汽车研发过程中进行“爆气”，从而提升员工的各项属性。另外日常员工事件也会影响到员工的干劲，你如果处理得当，会更快的将员工的干劲补满。你还可以对你中意的员工进行培训，从而让她更快的成长，对于有些实在无法胜任的员工，你只能换人了。你在每次成功研发完一辆新车后，还会随机获得一些员工技能，你可以将这些技能装备给你看好的员工，从而让她变的更强力。<br/>
+5、全球争霸<br/>
+当你积累了一定的造车经验后，你就可以去争夺全球市场了。全球共分为八个市场，中国、美国、欧盟是最大的三个，其余5个为小市场，刚开始你可以从小市场入手，去挑战当地的畅销车型，一旦挑战成功就会快速获得当地的市场认可，从而提升汽车销量。你的最终目标是打败全球所有竞争对手，在全球构建汽车帝国。<br/>
+6、工厂建造<br/>
+在你获得充裕的资金后，你就可以自建工厂了！首先你要在全球进行选址，包括北京、上海、纽约、莫斯科等等，每个地方都会有自己独特的优惠政策，你可以根据自己的需要选择一个合适的城市作为工厂的建设地。选址完成后，工程队会以飞快的速度将工厂建成，之后你就可以用自己的工厂生产汽车了！你此时不需要再给代工厂缴纳代工费，但是工厂将会每个月产生一定的运营费用，规模越大费用越多。随着你的汽车越来越畅销，可能会出现产能不足的情况，这时你就需要对工厂进行升级了。升级工厂的过程中，你可以玩一个类似于“俄罗斯方块”的小游戏，放进去的方块越多，工厂升级就越成功。<br/>
+7、市场情报<br/>
+想让自己的汽车在全球畅销，关注各国的市场情报也是必须的，你可以通过情报调查获得各国消费者关注的卖点，从而提升新车风靡全球的几率。另外，你还可以通过了解全球的市场趋势，获得当前各国的市场容量以及变化趋势，从而更有效的锁定目标市场。<br/>
+8、资本市场<br/>
+在初期资金不足时，可以通过资本市场来进行股权融资，汽车的销量越高，公司的估值也越高。中后期资金充裕时，你还可以进行股权回购，从而增加你对公司的控制权，并减少每年的股东分红。</p>
+<div class="post-note alert alert-warning mt-2" role="alert"><small><strong>声明：</strong>1.本文部分内容转载自其它媒体，但并不代表本站赞同其观点和对其真实性负责。 2.若您需要商业运营或用于其他商业活动，请您购买正版授权并合法使用。 3.如果本站有侵犯、不妥之处的资源，请在网站最下方联系我们。将会第一时间解决！ 4.本站所有内容均由互联网收集整理、网友上传，仅供大家参考、学习，不存在任何商业目的与商业用途。 5.本站提供的所有资源仅供参考学习使用，版权归原著所有，禁止下载本站资源参与商业和非法行为，请在24小时之内自行删除!</small></div>
+<div class="entry-share">
+<div class="row">
+<div class="col d-none d-lg-block">
+</div>
+<div class="col-auto mb-3 mb-lg-0">
+<button class="go-star-btn btn btn-sm btn-white" data-id="8175"><i class="far fa-star"></i> 收藏</button>
+<button class="go-copy btn btn-sm btn-white" data-clipboard-text="https://www.yxk111.com/8175.html" data-placement="top" data-toggle="tooltip" title="点击复制链接"><i class="fas fa-link"></i> 链接</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
